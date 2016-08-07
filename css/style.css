@@ -114,3 +114,8 @@
 .tile-text {
     font-size: medium;
 }
+
+.idea-intro {
+    height: 41em;
+    background: linear-gradient(darkblue, goldenrod);
+}
