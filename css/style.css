@@ -1,0 +1,19 @@
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+}
+
+.navbar-nav li:hover {
+    background-color: lightgray;
+}
+
+.jumbotron-idea {
+    background-image: url("../images/light-bulb.jpg");
+    color: whitesmoke;
+}
+

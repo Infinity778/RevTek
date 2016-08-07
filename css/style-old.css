@@ -1,0 +1,187 @@
+/*
+Author: Sid Sridhar
+*/
+
+/* Navigator */
+
+body {
+    margin:0;
+    background-color: whitesmoke;
+    font-family: Calibri;
+}
+
+.navbar-top {
+    position: fixed;
+    width: 100%;
+    height: 43px;
+    z-index: 9999;
+    background-color: whitesmoke;
+    text-align-last: center;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    padding: 12px 12px;
+    text-decoration: none
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+
+/* Sector base */
+.sector {
+    width: 96%;
+    height: 10em;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    position: relative;
+    font-size: xx-large;
+    padding: 5% 2%;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.sector-para {
+    font-size: x-large;
+    padding: 5% 2%;
+}
+
+/* Sector 1 */
+
+.sector-1 {
+    top: 42px;
+    background-image: url('../images/light-bulb.jpg');
+    background-size: contain;
+}
+
+.sector-1-text {
+    color: white;
+    font-size: x-large;
+}
+
+.btn-idea {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+    padding: 1% 1%;
+    border-radius: 8px;
+    font-size: large;
+    outline: none;
+}
+
+
+/* Sector 2 */
+
+#productivity {
+    text-align: center;
+    color: orange;
+    font-size: xx-large;
+}
+
+.para1 {
+    text-align: center;
+    color: grey;
+    font-size: larger;
+}    
+
+/* All other sectors */
+
+.sector-3 {
+    top: 45px;
+    background-color: darkred;
+}
+
+.sector-4 {
+    background-color: lightyellow;
+    color: black;
+}
+
+.sector-5 {
+    background-image: url("../images/sports-app-background.jpg");
+}
+
+.sector-6 {
+    background-image: url("../images/social-media-background.jpg");
+}
+
+
+/* About 1 styles */
+
+.about {
+    top: 42px;
+    height: 12em;
+    background-image: url('../images/about-us.jpg');
+}
+
+.tile-mission {
+    width: 40%;
+    height: 13em;
+    float: left;
+}
+
+.about-mission-text {
+    font-size: xx-large;
+    padding: 5% 2%;
+}
+
+.about-mission-para {
+    font-size: large;
+    margin-top: 35%;
+}
+
+.tile-profile-container {
+    /* line-height: jjj */
+}
+
+.tile-profile {
+    width: 25%;
+    height: 13em;
+    margin: 0.5%;
+    padding: 1% 1%;
+    float: left;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    font-size: small;
+    color: black;
+    vertical-align: text-bottom;
+    text-align: center;
+}
+
+.tile-profile-empty {
+    background-color: transparent;
+    border-color: transparent;    
+}
+
+.tile-text {
+    font-size: medium;
+}
+
+.idea-intro {
+    height: 41em;
+    background: linear-gradient(darkblue, goldenrod);
+}
+
+/* Footer styles */
+
+footer {
+    padding: 1em;
+    color: gray;
+    text-align: center;
+    font-size: small;
+}
