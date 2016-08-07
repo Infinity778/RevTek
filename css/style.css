@@ -24,3 +24,9 @@
 .para1 {
     color: gray;
 }
+
+.jumbotron-about {
+    background-image: url("../images/about-us.jpg.");
+    color: whitesmoke;
+    background-repeat: no-repeat
+}
