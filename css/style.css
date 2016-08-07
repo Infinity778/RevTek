@@ -42,12 +42,14 @@
     background-color: darkred;
     color: whitesmoke;
     margin-bottom: 0;
+    height: 25em;
 }
 
 #news-app {
     text-align: center;
     background-color: lightyellow;
-    margin-bottom: 0;    
+    margin-bottom: 0;
+    height: 25em;    
 }
 
 #sports-app {
@@ -55,6 +57,7 @@
     background-image: url("../images/sports-app-background.jpg");
     color: whitesmoke;
     margin-bottom: 0;
+    height: 25em;
 }
 
 #social-media-app {
@@ -62,6 +65,7 @@
     background-image: url("../images/social-media-background.jpg");
     color: whitesmoke;
     margin-bottom: 0;
+    height: 25em;
 }
 
 /* Styles for about.html */
@@ -105,9 +109,4 @@
 .tile-profile-empty {
     background-color: transparent;
     border-color: transparent;    
-}
-
-.idea-intro {
-    height: 41em;
-    background: linear-gradient(darkblue, goldenrod);
 }
