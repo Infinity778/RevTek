@@ -30,3 +30,16 @@
     color: whitesmoke;
     background-repeat: no-repeat
 }
+
+#rringup {
+    color: red;
+}
+
+#news-app {
+    background-color: lightyellow;
+}
+
+#sports-app {
+    background-image: url("../images/sports-app-background.jpg");
+    color: whitesmoke
+}
