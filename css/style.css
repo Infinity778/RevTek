@@ -88,10 +88,6 @@
     margin-top: 35%;
 }
 
-.tile-profile-container {
-    /* line-height: jjj */
-}
-
 .tile-profile {
     width: 25%;
     height: 16em;
@@ -109,10 +105,6 @@
 .tile-profile-empty {
     background-color: transparent;
     border-color: transparent;    
-}
-
-.tile-text {
-    font-size: medium;
 }
 
 .idea-intro {
