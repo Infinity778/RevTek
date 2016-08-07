@@ -2,17 +2,22 @@
 <html lang="en-US">
 
 <head>
-    <link rel="stylesheet" href="css/style-old.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>RevTek - About</title>
 </head>
 
 <body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
     <!-- Navigation -->
-    <nav class="navbar-top">
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="idea.html">IDEAS</a></li>
-            <li style="float:right"><a href="about.html">ABOUT</a></li>
+    <nav class="nav navbar-default navbar-fixed-top">
+        <ul class="nav navbar-nav">
+            <li class=pull-left><a href="idea.html">IDEAS</a></li>
+            <li><a href="index.html"><span class="glyphicon glyphicon-fire" style="color:orangered" aria-hidden="true"></span></a></li>
+            <li class="pull-right"><a href="about.html">ABOUT</a></li>
         </ul>
     </nav>
 
@@ -54,7 +59,9 @@
     <br><br>
 
     <!-- Footer -->
-    <footer>2016-2021 &copy; revtek.org</footer>
+    <div class="panel panel default">
+        <div class="panel-footer" style="text-align:center">2016-2021 &copy; revtek.org</div>
+    </div>
 </body>
 
 </html>
